@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LSTNetworkTool (0.1.0):
+    - AFNetworking
+    - Reachability
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - LSTNetworkTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Reachability
+
+EXTERNAL SOURCES:
+  LSTNetworkTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LSTNetworkTool: dc71465ef5d66e2536e41496ab4f3bcf979aa4dc
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: cab16dee6737b33589507c7fd64713d6e03d9b34
+
+COCOAPODS: 1.9.3
